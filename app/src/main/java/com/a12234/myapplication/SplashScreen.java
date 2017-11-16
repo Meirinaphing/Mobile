@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 
 /**
  * Created by Meirina on 13/11/2017.
@@ -19,7 +18,7 @@ public class SplashScreen extends Activity{
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                Intent i = new Intent(SplashScreen.this,home.class);
+                Intent i = new Intent(SplashScreen.this,home_menu_page.class);
                 startActivity(i);
                 finish();
             }

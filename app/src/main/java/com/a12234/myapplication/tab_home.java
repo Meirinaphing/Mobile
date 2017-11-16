@@ -11,7 +11,7 @@ import android.view.ViewGroup;
  * Created by Meirina on 14/11/2017.
  */
 
-public class tab1 extends Fragment {
+public class tab_home extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
